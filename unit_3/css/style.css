@@ -1,0 +1,39 @@
+body {
+	background: url("http://c.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/10/3036888-poster-p-1-fahrenheit-212s-mark-payne-on-the-trouble-with-design-thinking.png");
+	text-align: center;
+	background-size: cover;
+
+		}
+#colour {
+	background-color: rgba(256,256,256,.4);
+}
+
+h1 {font-family: Arial, sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+}
+
+#slogan {
+	color: #006f66;
+	font-family: Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	font-style: italic;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+a {
+	font-family: Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 24px;
+}
