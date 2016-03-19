@@ -1,39 +1,85 @@
-body {
-	background: url("http://c.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/10/3036888-poster-p-1-fahrenheit-212s-mark-payne-on-the-trouble-with-design-thinking.png");
-	text-align: center;
-	background-size: cover;
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 
-		}
-#colour {
-	background-color: rgba(256,256,256,.4);
+* {
+	padding: 0;
+	margin: 0;
 }
 
-h1 {font-family: Arial, sans-serif;
+
+
+
+nav {
+
+	text-align: left;
+	margin: auto;
+	background-color: rgba(222,202,202,.4);
+	width: 80%;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+nav a {
+
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: inherit;
+
+}
+
+#second {
+
+	margin: auto;
+	background-color: rgba(216,216,216,.4);
+	width: 80%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+h1 {
+
+	font-family: 'Lobster', cursive;
 	font-weight: 900;
 	font-size: 48px;
+	margin-top: 10px;
+	margin-left: 10%;
 }
 
-#slogan {
-	color: #006f66;
-	font-family: Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 36px;
-	font-style: italic;
+h2 {
+	color: #000000;
+	font-family: 'Noto Serif', serif;
+	font-weight: 200;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+img {
+	padding-left: 20px;
 }
 
 p {
-	font-family: Helvetica, sans-serif;
-	font-size: 24px;
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 10px;
 
 }
 
 ul {
-	text-align: center;
+	text-align: left;
 	list-style-type: none;
 }
 
 a {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 10px;
 	text-decoration: none;
-	font-size: 24px;
 }
