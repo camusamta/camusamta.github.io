@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+          width: 698px;
+          margin: auto;
+}
+
+header {
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav {
+  text-align: right;
+  margin: auto;
+  background-color: #E8C66A;
+  border: 1px black solid;
+/*   width: 80%; */
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+/*   border: 1px solid; */
+  padding-right: 20px;
+}
+
+nav a {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: inherit;
+}
+
+nav a:hover {
+  color: red
+}
+
+footer {
+  background-color: #FF957E;
+  border: 1px black solid;
+/*   width: 80%; */
+  margin: auto;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: inherit;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+#second {
+  margin: auto;
+  background-color: #FFE2B8;
+  border: 1px black solid;
+/*   width: 80%; */
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+#third {
+  margin: auto;
+  background-color: #FFE2B8;
+  border: 1px black solid;
+/*   width: 80%; */
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 900;
+  font-size: 48px;
+  margin-top: 10px;
+/*   margin-left: 10%; */
+  text-align: right;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Noto Serif', serif;
+  font-weight: 200;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+img {
+  margin-left: 20px;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+a {
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
