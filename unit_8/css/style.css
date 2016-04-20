@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+          width: 60%;
+          margin: 5% auto;
+}
+
+nav {
+  text-align: right;
+  margin: auto;
+  background-color: rgba(222, 202, 202, .4);
+/*   width: 80%; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+/*   border: 1px solid; */
+  padding-right: 20px;
+}
+
+nav a {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: inherit;
+}
+
+nav a:hover {
+  color: red
+}
+
+#three_column {
+  /*background-color: #FFB7CF;*/
+/*  border: 1px black solid;*/
+  /*padding: 2%;*/
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer {
+  background-color: rgba(11, 36, 251, 0.2);
+/*   width: 80%; */
+  margin: auto;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: inherit;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+#left {
+  /*background-color: #E582A2;*/
+/*   width: 80%; */
+  border: 1px black solid;
+  padding: 10px;
+  float: right;
+  width: 30%;
+  /*margin-right: 1%;*/
+  /*margin: 1% 0;*/
+}
+
+#middle {
+  /*background-color: #E582A2;*/
+/*   width: 80%; */
+  border: 1px black solid;
+  padding: 10px;
+  float: right;
+  width: 30%;
+  margin-right: 1%;
+}
+
+#right {
+  /*background-color: #E582A2;*/
+/*   width: 80%; */
+  border: 1px black solid;
+  padding: 10px;
+  float: right;
+  width: 30%;
+  margin-right: 1%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 900;
+  font-size: 48px;
+  margin-top: 10px;
+/*   margin-left: 10%; */
+  text-align: right;
+}
+
+h2 {
+  color: #000000;
+  font-family: 'Noto Serif', serif;
+  font-weight: 200;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+img {
+  margin-left: 20px;
+  width:100px;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+a {
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width:1370px) {
+
+#left, #middle, #right {
+  float:none;
+  margin: auto;
+  width: 90%;
+}
+
+}
