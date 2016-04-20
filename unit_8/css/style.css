@@ -163,4 +163,36 @@ ul {
   width: 90%;
 }
 
+header {
+  margin-left: 20px;
+}
+
+nav {
+  margin-left: 20px;
+}
+
+}
+
+@media only screen and (max-width:755px) {
+
+nav {
+  margin: auto;
+}
+}
+
+@media only screen and (max-width:430px) {
+
+nav {
+  display: none;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+  /*text-align: center;*/
+}
 }
